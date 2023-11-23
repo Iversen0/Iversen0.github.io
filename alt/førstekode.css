@@ -1,0 +1,7 @@
+
+body{background-image: url(./images/portx.jpg); background-blend-mode: multiply;
+    }
+
+    * {
+        cursor: url("./images/brush.png"), auto;
+      }

@@ -1,0 +1,46 @@
+.outerContainer {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  .eye {
+    position: absolute;
+  }
+  #container {
+    align-self: end;
+    position: relative;
+  }
+
+  #eye1 {
+    top: 31%;
+    left: 58%;
+    scale: 0.3;
+  }
+  #eye2 {
+    top: 30%;
+    left: 69%;
+    scale: 0.3;
+  }
+  #eye3 {
+    top: 60%;
+    left: 39%;
+    scale: 0.2;
+  }
+  #eye4 {
+    top: 62%;
+    left: 25%;
+    scale: 0.2;
+  }
+#anchor {
+    max-height: 550px;
+  }
+
+body {
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+* {
+  cursor: url("./images/cursorcookie.png"), auto;
+}

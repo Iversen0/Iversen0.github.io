@@ -1,0 +1,61 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.banner {
+background: #000;
+color: white;
+margin-top: 50px;
+text-align: center;
+padding: 100px 0
+}
+
+#Lille-logo {
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.Visual {
+    padding: 20px 50px;
+}
+
+#Code {
+color: #3b87e9;
+font-size: 100px
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url(./images/Visual_Studio_Code_1.35_icon.png.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body{
+    overflow: hidden;
+}
+
+* {
+    cursor: url("./images/VSC.png"), auto;
+  }

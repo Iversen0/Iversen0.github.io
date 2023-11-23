@@ -1,0 +1,71 @@
+.nav-wrapper {
+    width: 100%;
+    height: 96vh;
+    background: #161616;
+    overflow: hidden;
+    cursor: none;
+}
+
+
+
+.hover-this {
+    transition: all 0.3s ease;
+    align-self: center;
+}
+
+.span-hover {
+    display: flex;
+    font-family: "Monument Extended";
+    font-weight: 300;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: transform 0.1s linear;
+    cursor: none;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    padding: 0.3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+    cursor: none;
+}
+
+.hover-this:hover ~ .cursor {
+    transform: translate(-50%, -50%) scale(8);
+}
+
+@media(min-width: 900px) {
+    nav {
+          display: flex;
+          justify-content: space-around;
+          height: 100%;
+    }
+}
+
+@media(max-width: 900px) {
+    nav {
+          top: 30%;
+          height: 100%;
+          display: grid;
+          align-items: center;
+    }
+
+    .hover-this {
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        cursor: none;
+    }
+}
