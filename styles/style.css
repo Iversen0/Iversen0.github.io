@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+.bloglink {
+  width: 100%;
+}
+
 :root {
   --color-primary: #191d2b;
   --color-secondary: rgb(105, 233, 159);
