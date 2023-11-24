@@ -30,7 +30,7 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(100px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
+    color: #002D56;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -56,12 +56,12 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: #002D56;
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-    color: #fff;
+    color: #002D56;
 }
 
 .input-box i {
@@ -80,12 +80,12 @@ body {
 }
 
 .remember-forgot label input {
-    accent-color: #fff;
+    accent-color: #002D56;
     margin-right: 3px;
 }
 
 .remember-forgot a {
-    color: #fff;
+    color: #002D56;
     text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .register-link p a {
-    color: #fff;
+    color: #002D56;
     text-decoration: none;
     font-weight: 600;
 }

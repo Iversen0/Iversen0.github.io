@@ -71,15 +71,8 @@ const quizData = [
         d: "Alle ovenstående",
         correct: "d",
     },
-    {
-        question: "Hvem er Agramkows primære kundegruppe?",
-        a: "Små vikrsomheder",
-        b: "Store Virksomheder",
-        c: "Offentlige institutioner",
-        d: "Privat personer",
-        correct: "b",
-    },
 ];
+
 const quiz= document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
